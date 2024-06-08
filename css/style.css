@@ -1,0 +1,572 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 100%;
+  height: 900px;
+  display: flex;
+  background: white;
+  font-family: "Space Grotesk", sans-serif;
+}
+.wrapper .box {
+  width: 100%;
+  max-width: 483px;
+  height: 900px;
+  background-image: url(../img/bg\ img.png);
+}
+.wrapper .box .cards {
+  width: 100%;
+  max-width: 541px;
+  height: 527px;
+  margin-left: 194px;
+  margin-top: 187px;
+  display: block;
+}
+.wrapper .box .cards .card {
+  width: 100%;
+  max-width: 447px;
+  height: 245px;
+  background-image: url(../img/card.png);
+  margin-bottom: 37px;
+  padding: 32px 32px 26px 32px;
+  border-radius: 10px;
+  box-shadow: 0 39px 60px 0 rgba(0, 0, 0, 0.14);
+}
+.wrapper .box .cards .card .brain {
+  max-width: 84px;
+  width: 100%;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+.wrapper .box .cards .card .brain .circle {
+  width: 100%;
+  max-width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  background: white;
+}
+.wrapper .box .cards .card .brain .cirle1 {
+  width: 21px;
+  height: 21px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.wrapper .box .cards .card .num {
+  height: 36px;
+  width: 100%;
+  max-width: 372px;
+  flex-wrap: nowrap;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: white;
+  margin-bottom: 25px;
+}
+.wrapper .box .cards .card .card-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 383px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.86px;
+  letter-spacing: 2px;
+  text-align: right;
+  color: white;
+}
+.wrapper .box .cards .card1 {
+  height: 245px;
+  width: 100%;
+  max-width: 447px;
+  height: 245px;
+  background-image: url(../img/card1.png);
+  margin-left: 94px;
+  padding-top: 23px;
+  box-shadow: 0 39px 60px 0 rgba(0, 0, 0, 0.14);
+}
+.wrapper .box .cards .card1 .black-line {
+  width: 100%;
+  max-width: 447px;
+  height: 54px;
+  background: rgb(47, 47, 47);
+  margin-bottom: 24px;
+}
+.wrapper .box .cards .card1 .card1-main {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 10px;
+  margin: 0 auto;
+  max-width: 361px;
+  width: 100%;
+  height: 38px;
+  border-radius: 5px;
+  background: rgb(173, 181, 190);
+  margin-bottom: 33px;
+}
+.wrapper .box .cards .card1 .card1-footer {
+  width: 100%;
+  max-width: 186px;
+  height: 26px;
+  margin: 0 auto;
+}
+.wrapper .info {
+  margin: auto;
+  width: 100%;
+  max-width: 381px;
+}
+.wrapper .info p {
+  margin-bottom: 9px;
+  color: rgb(33, 9, 47);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15.31px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+.wrapper .info .name {
+  margin-bottom: 26px;
+}
+.wrapper .info .name input {
+  padding: 11px 191px 11px 16px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid rgb(223, 222, 224);
+  width: 100%;
+  max-width: 381px;
+  height: 45px;
+  cursor: pointer;
+  transition: 1s;
+}
+.wrapper .info .name input:hover {
+  border: 1px solid rgb(97, 5, 149);
+}
+.wrapper .info .name input .placeholder {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.97px;
+  text-align: left;
+}
+.wrapper .info .number {
+  margin-bottom: 26px;
+}
+.wrapper .info .number input {
+  padding: 11px 191px 11px 16px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid rgb(223, 222, 224);
+  width: 100%;
+  max-width: 381px;
+  height: 45px;
+  cursor: pointer;
+  transition: 1s;
+}
+.wrapper .info .number input:hover {
+  border: 1px solid rgb(97, 5, 149);
+}
+.wrapper .info .number input .placeholder {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.97px;
+  text-align: left;
+}
+.wrapper .info .date {
+  display: flex;
+  width: 100%;
+  max-width: 381px;
+}
+.wrapper .info .date .exp input {
+  width: 100%;
+  max-width: 80px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(223, 222, 224);
+  cursor: pointer;
+  transition: 1s;
+}
+.wrapper .info .date .exp input:hover {
+  border: 1px solid rgb(97, 5, 149);
+}
+.wrapper .info .date .yy {
+  margin-right: 20px;
+}
+.wrapper .info .date .yy .mm {
+  margin-left: -45px;
+}
+.wrapper .info .date .yy input {
+  width: 100%;
+  max-width: 80px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(223, 222, 224);
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+.wrapper .info .date .yy input:hover {
+  border: 1px solid rgb(97, 5, 149);
+}
+.wrapper .info .date .cvc {
+  margin-bottom: 40px;
+}
+.wrapper .info .date .cvc input {
+  width: 100%;
+  max-width: 191px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 109px 11px 16px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(223, 222, 224);
+  cursor: pointer;
+  transition: 1s;
+}
+.wrapper .info .date .cvc input:hover {
+  border: 1px solid rgb(97, 5, 149);
+}
+.wrapper .info button {
+  width: 100%;
+  max-width: 381px;
+  height: 53px;
+  border-radius: 10px;
+  background: rgb(33, 9, 47);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.97px;
+  transition: 1s;
+  cursor: pointer;
+}
+.wrapper .info button:hover {
+  background: rgb(47, 47, 47);
+}
+
+@media (max-width: 1368px) {
+  .wrapper {
+    width: 100%;
+    max-width: 100%;
+    height: 900px;
+    display: flex;
+    background: white;
+    font-family: "Space Grotesk", sans-serif;
+  }
+  .wrapper .box {
+    width: 100%;
+    max-width: 483px;
+    height: 900px;
+    background-image: url(../img/bg\ img.png);
+  }
+  .wrapper .box .cards {
+    width: 100%;
+    max-width: 541px;
+    height: 527px;
+    margin-left: 20px;
+    margin-top: 187px;
+    display: block;
+  }
+}
+@media (max-width: 1020px) {
+  .wrapper .box .cards .card1 {
+    height: 245px;
+    width: 100%;
+    max-width: 447px;
+    height: 245px;
+    background-image: url(../img/card1.png);
+    margin-left: 0px;
+    padding-top: 23px;
+    box-shadow: 0 39px 60px 0 rgba(0, 0, 0, 0.14);
+  }
+}
+@media (max-width: 846px) {
+  .wrapper {
+    width: 100%;
+    max-width: 100%;
+    height: 900px;
+    display: flex;
+    background: white;
+    font-family: "Space Grotesk", sans-serif;
+  }
+  .wrapper .box {
+    width: 100%;
+    max-width: 483px;
+    height: 900px;
+    background-image: url(../img/bg\ img.png);
+  }
+  .wrapper .box .cards {
+    width: 100%;
+    max-width: 541px;
+    height: 527px;
+    margin-left: 0px;
+    margin-top: 187px;
+    display: block;
+  }
+  .wrapper .box .cards .card {
+    width: 100%;
+    max-width: 447px;
+    height: 245px;
+    background-image: url(../img/card.png);
+    margin-bottom: 37px;
+    padding: 32px 32px 26px 32px;
+    border-radius: 10px;
+    box-shadow: 0 39px 60px 0 rgba(0, 0, 0, 0.14);
+  }
+  .wrapper .box .cards .card .brain {
+    max-width: 84px;
+    width: 100%;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 64px;
+  }
+  .wrapper .box .cards .card .brain .circle {
+    width: 100%;
+    max-width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    background: white;
+  }
+  .wrapper .box .cards .card .brain .cirle1 {
+    width: 21px;
+    height: 21px;
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+  .wrapper .box .cards .card .num {
+    height: 36px;
+    width: 100%;
+    max-width: 372px;
+    flex-wrap: nowrap;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: white;
+    margin-bottom: 25px;
+  }
+  .wrapper .box .cards .card .card-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 383px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.86px;
+    letter-spacing: 2px;
+    text-align: right;
+    color: white;
+  }
+  .wrapper .box .cards .card1 {
+    height: 245px;
+    width: 100%;
+    max-width: 447px;
+    height: 245px;
+    background-image: url(../img/card1.png);
+    margin-left: 0px;
+    padding-top: 23px;
+    box-shadow: 0 39px 60px 0 rgba(0, 0, 0, 0.14);
+  }
+}
+@media (max-width: 812px) {
+  .wrapper {
+    width: 100%;
+    max-width: 812px;
+    margin: 0 auto;
+    height: 704px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    font-family: "Space Grotesk", sans-serif;
+  }
+  .wrapper .box {
+    width: 100%;
+    max-width: 812px;
+    height: 240px;
+    background-image: url(../img/bg\ img.png);
+    margin-bottom: 92px;
+    background-size: cover;
+  }
+  .wrapper .box .cards {
+    position: relative;
+    left: 0px;
+    width: 100%;
+    max-width: 343px;
+    height: 251px;
+    margin-top: 32px;
+    margin: auto;
+    display: block;
+  }
+  .wrapper .box .cards .card {
+    position: absolute;
+    top: 130px;
+    width: 286px !important;
+    height: 157px;
+    background-image: url(../img/card.png);
+    margin-bottom: 0px;
+    padding: 19px 0 19px 19px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0;
+    z-index: 1;
+  }
+  .wrapper .box .cards .card .brain {
+    max-width: 54px;
+    width: 100%;
+    margin-bottom: 37px;
+    height: 30px;
+  }
+  .wrapper .box .cards .card .brain .circle {
+    width: 100%;
+    max-width: 30px;
+    height: 30px;
+  }
+  .wrapper .box .cards .card .brain .cirle1 {
+    width: 13px;
+    height: 13px;
+  }
+  .wrapper .box .cards .card .num {
+    position: absolute;
+    left: 19px;
+    top: 86px;
+    height: 23px;
+    width: 239px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 17px;
+  }
+  .wrapper .box .cards .card .card-footer {
+    position: absolute;
+    top: 124.6px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 245px;
+  }
+  .wrapper .box .cards .card1 {
+    position: absolute;
+    left: 57px;
+    height: 157px;
+    width: 100%;
+    max-width: 286px;
+    background-image: url(../img/card1.png);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0;
+    margin-top: 32px;
+  }
+  .wrapper .box .cards .card1 .black-line {
+    width: 100%;
+    max-width: 286px;
+    height: 34px;
+    background: rgb(47, 47, 47);
+    margin-bottom: 15px;
+  }
+  .wrapper .box .cards .card1 .card1-main {
+    max-width: 230px;
+    width: 100%;
+    height: 29px;
+  }
+  .wrapper .box .cards .card1 .card1-footer {
+    display: none;
+  }
+  .wrapper .info {
+    margin: auto;
+    width: 100%;
+    max-width: 327px;
+  }
+  .wrapper .info p {
+    margin-bottom: 9px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.31px;
+    letter-spacing: 2px;
+  }
+  .wrapper .info .name {
+    margin-bottom: 20px;
+  }
+  .wrapper .info .name input {
+    padding: 11px 137px 11px 16px;
+    width: 100%;
+    max-width: 327px;
+  }
+  .wrapper .info .name input:hover {
+    border: 1px solid rgb(97, 5, 149);
+  }
+  .wrapper .info .name input .placeholder {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.97px;
+  }
+  .wrapper .info .number {
+    margin-bottom: 20px;
+  }
+  .wrapper .info .number input {
+    padding: 11px 91px 11px 16px;
+    max-width: 327px;
+  }
+  .wrapper .info .number input:hover {
+    border: 1px solid rgb(97, 5, 149);
+  }
+  .wrapper .info .date {
+    display: flex;
+    width: 100%;
+    max-width: 327px;
+  }
+  .wrapper .info .date .exp input {
+    width: 100%;
+    max-width: 72px;
+  }
+  .wrapper .info .date .exp input:hover {
+    border: 1px solid rgb(97, 5, 149);
+  }
+  .wrapper .info .date .yy {
+    margin-right: 20px;
+  }
+  .wrapper .info .date .yy .mm {
+    margin-left: -30px;
+  }
+  .wrapper .info .date .yy input {
+    width: 100%;
+    max-width: 72px;
+    outline: none;
+    margin-left: 6px;
+  }
+  .wrapper .info .date .yy input:hover {
+    border: 1px solid rgb(97, 5, 149);
+  }
+  .wrapper .info .date .cvc {
+    margin-bottom: 28px;
+  }
+  .wrapper .info .date .cvc input {
+    width: 100%;
+    max-width: 164px;
+    padding: 11px 82px 11px 16px;
+  }
+  .wrapper .info button {
+    width: 100%;
+    max-width: 327px;
+  }
+}/*# sourceMappingURL=style.css.map */
